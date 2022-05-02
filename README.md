@@ -1,4 +1,4 @@
 # Praksa
 Repozitorij za praksu
 
-Bug count: for now 0
+Bug count: a few... too many

@@ -7,3 +7,8 @@ header{
     background: red ;
     position: sticky; top: 0;
 }
+.pseudolink { 
+   color:blue; 
+   text-decoration:underline; 
+   cursor:pointer; 
+   }

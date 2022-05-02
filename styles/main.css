@@ -2,3 +2,8 @@ body {background-color: black;}
 p {
     color: orange;
 }
+header{
+    padding: 70px 16px;
+    background: red ;
+    position: sticky; top: 0;
+}

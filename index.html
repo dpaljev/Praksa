@@ -6,9 +6,18 @@
         <nav>
             <span class="pseudolink" onclick="">Home</span>
             <span class="pseudolink" onclick="">Done</span>
-            <!--Nisam znao tocno kako bi trebalo ovo izgledat posto nemoze biti <a> element, pa sam probao sa ovime-->>
         </nav>
     </header>
-    <p class="klasa">Hello world!</p>
+    <div id="myDIV" class="header">
+        <h2>Your tasks</h2>
+        <input type="text" id="myInput" placeholder="Name...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+      
+    <ul id="myUL">
+        <li>Random task 1</li>
+        <li>Random task 2</li>
+        <li>Random task 3</li>
+    </ul>
     <script src="scripts/main.js"></script>
 </body>>

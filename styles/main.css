@@ -1,4 +1,8 @@
-body {background-color: gray;}
+body {
+    background-color: gray;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 p {
     color: orange;
 }
@@ -6,13 +10,15 @@ header{
     padding: 70px 16px;
     background: #484848 ;
     position: sticky; top: 0;
+    text-align: center;
+    word-spacing: 30px;
 }
 .pseudolink { 
    font-size: 25px;
    color:blue; 
    padding: 12px;
    background: gray;
-   cursor:pointer; 
+   cursor:pointer;
    }
 
 ul {

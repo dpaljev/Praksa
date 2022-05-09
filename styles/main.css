@@ -1,179 +1,77 @@
 body {
-    background-color: gray;
+  background-color: gray;
 }
-header{
-    padding: 70px 16px;
-    background: #484848 ;
-    position: sticky; top: 0;
-    text-align: center;
-    word-spacing: 30px;
-}
-.pseudolink { 
-   font-size: 25px;
-   color: black; 
-   padding: 12px;
-   background: gray;
-   cursor:pointer;
-   }
 
-   .container {
-    margin-top: 30px;
-    background: #484848;
-    color: white;
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 30px;
-    width: 30px;
-    background-color: #eee;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .container input:checked ~ .checkmark {
-    background-color: #2196F3;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-
-   /* ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul li {
-    cursor: pointer;
-    position: relative;
-    padding: 12px 8px 12px 40px;
-    background: darkgray;
-    font-size: 18px;
-    transition: 0.2s;
-  
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  ul li:hover {
-    background: gray;
-  }
-  
-  
-  ul li.checked {
-    background: #888;
-    color: white;
-  }
-  
-  
-  ul li.checked::before {
-    content: '';
-    position: absolute;
-    border-color: darkgray;
-    border-style: solid;
-    border-width: 0 2px 2px 0;
-    top: 10px;
-    left: 16px;
-    transform: rotate(45deg);
-    height: 15px;
-    width: 7px;
-  }
-  
-
-.close {
-  position: absolute;
-  right: 0;
+header {
+  padding: 70px 16px;
+  background: #484848;
+  position: sticky;
   top: 0;
-  padding: 12px 16px 12px 16px;
-  background: #484848;
-  color: Gray;
-}
-
-
-.header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-input {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 75%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
-  background: #484848;
-  color: darkgray;
-}
-
-.addBtn {
-  padding: 10px;
-  width: 25%;
-  background: darkgray;
-  color: #555;
-  float: left;
   text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
+  word-spacing: 30px;
 }
 
-.addBtn:hover {
-  background-color: #bbb;
-} */
+.pseudolink {
+  font-size: 25px;
+  color: black;
+  padding: 12px;
+  background: gray;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 30px;
+  background: #484848;
+  color: white;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.containerDone {
+  margin-top: 30px;
+  background: #484848;
+  color: white;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.container input {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33px;
+  width: 33px;
+}
+
+.containerDone input {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33px;
+  width: 33px;
+}
+
+
+.creation {
+  font-size: 17;
+  opacity: 40%;
+}
